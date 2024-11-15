@@ -8,7 +8,7 @@ describe('Issue comments creating, editing and deleting', () => {
     });
             
 
-            it.only('Should add, edit, and delete a comment successfully', () => {
+            it('Should add, edit, and delete a comment successfully', () => {
                 const comment = "This is my first comment";
                 const editedComment = "This is my edited comment";
 
